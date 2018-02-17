@@ -1,0 +1,3 @@
+<div class="navbar">
+    <div class="voci_singole" *ngFor="let item of menuVoices" (click)="selectSection(item.id)" [class.selected]="item.selected">{{item.description}}</div>
+</div>

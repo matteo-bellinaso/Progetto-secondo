@@ -1,0 +1,6 @@
+<div class="vociMenu" *ngFor="let item of personeList" (click)="selectPersona(item.id)" (personaChanged)="setPersonaChanged($event)">
+    <!-- creo funzione al click -->
+    <div>{{item.name}}</div>
+    <div>{{item.description}}</div>
+    <div>{{item.age}}</div>
+</div>

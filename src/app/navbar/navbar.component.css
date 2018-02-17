@@ -1,0 +1,17 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+
+.voci_singole {
+    float: right;
+    line-height: 80px;
+    color: antiquewhite;
+    font-size: 25px;
+    margin-right: 5%;
+}
+
+.voci_singole:hover {
+    cursor: pointer;
+}
